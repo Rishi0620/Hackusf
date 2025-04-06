@@ -138,12 +138,9 @@ history = model.fit(
 # Save Final Model
 model.save('final_balanced_model.keras')
 
-# To load later:
-# model = tf.keras.models.load_model('final_balanced_model.keras', custom_objects={'FocalLoss': FocalLoss})
 
-# After training, evaluate the model performance using classification report
 y_pred = model.predict(val_ds)
-y_pred = (y_pred > 0.5)  # Convert to binary predictions
+y_pred = (y_pred > 0.5)  
 
 from sklearn.metrics import classification_report
 
