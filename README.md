@@ -18,14 +18,6 @@ By integrating AI into the diagnostic workflow, we aim to assist clinicians in m
 
 ---
 
-## 🧠 Tech Stack
-
-- **Frontend**: Next.js, Tailwind CSS
-- **Backend**: Node.js, Express
-- **Machine Learning**: Python, TensorFlow / PyTorch (specify what you used)
-- **Data**: NIH Skin Cancer Image Dataset + Clinical Metadata
-
----
 
 
 
